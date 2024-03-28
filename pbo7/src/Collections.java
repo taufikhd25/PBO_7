@@ -7,8 +7,8 @@ public class Collections {
 
     public static void addCollection() {
         System.out.println("Add Collection");
-        names.add("Lukas");
-        names.addAll(Arrays.asList("Dean", "Taufik"));
+        names.add("Taufik");
+        names.addAll(Arrays.asList("Dean", "Lukaz"));
         for (String name : names) {
             System.out.println(name);
         }
@@ -19,9 +19,9 @@ public class Collections {
         System.out.println("Remove Collection");
         names.add("Rafly");
         names.add("Lukas");
-        names.addAll(Arrays.asList("Dean", "Taufik"));
+        names.addAll(Arrays.asList("Dean", "Lukaz"));
         names.remove("Rifqi");
-        names.removeAll(Arrays.asList("Dean", "Taufik"));
+        names.removeAll(Arrays.asList("Dean", "Lukaz"));
         for (String name : names) {
             System.out.println(name);
         }
