@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Mahasiswa<String, Integer> mahasiswa = new Mahasiswa<String, Integer>("Arul", "Sukabumi", 12345);
+        Mahasiswa<String, Integer> mahasiswa = new Mahasiswa<String, Integer>("Taufik H", "Malingping", 12345);
         mahasiswa.getInfo();
 
         System.out.println();
